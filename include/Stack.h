@@ -11,7 +11,8 @@ class Stack
 protected:
 	List <ValType> Mem;
 public:
-	Stack ();
+	Stack (); // конструктор по умолчанию, который явно вызывает конструктор класса List
+	~ Stack (); // деструктор
 	int StackIsEmpty ()
 	{
 		return Mem.IsEmpty ();
@@ -25,6 +26,11 @@ public:
 
 template <class ValType> 
 Stack <ValType> :: Stack () 
+{
+}
+
+template <class ValType> 
+Stack <ValType> :: ~ Stack () 
 {
 }
 

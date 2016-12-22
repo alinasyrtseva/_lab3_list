@@ -1,0 +1,96 @@
+﻿Построение начато 19.12.2016 5:32:11.
+     1>Проект "C:\Documents and Settings\admin\Рабочий стол\_lab3_list\_lab3_list\_lab3_list.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\_lab3_list.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\samples\main.cpp
+         main.cpp
+     1>c:\documents and settings\admin\рабочий стол\_lab3_list\include\parser.h(227): warning C4172: возвращение адреса локальной или временной переменной
+     1>c:\documents and settings\admin\рабочий стол\_lab3_list\include\list.h(87): warning C4520: List<ValType>: заданы несколько конструкторов, используемых по умолчанию
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\stack.h(12): см. ссылку на создание экземпляров класса шаблон при компиляции "List<ValType>"
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\arithmetic.h(39): см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<ValType>"
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+     1>c:\documents and settings\admin\рабочий стол\_lab3_list\include\arithmetic.h(144): warning C4172: возвращение адреса локальной или временной переменной
+     1>c:\documents and settings\admin\рабочий стол\_lab3_list\include\list.h(87): warning C4520: List<ValType>: заданы несколько конструкторов, используемых по умолчанию
+                 with
+                 [
+                     ValType=double
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\stack.h(12): см. ссылку на создание экземпляров класса шаблон при компиляции "List<ValType>"
+                 with
+                 [
+                     ValType=double
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\arithmetic.h(172): см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<ValType>"
+                 with
+                 [
+                     ValType=double
+                 ]
+     1>c:\documents and settings\admin\рабочий стол\_lab3_list\include\stack.h(28): error C2668: List<ValType>::List: неоднозначный вызов перегруженной функции
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\list.h(33): может быть "List<ValType>::List(int)"
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\list.h(27): или       "List<ValType>::List(void)"
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+                 при попытке сопоставить список аргументов "(void)"
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\stack.h(28): при компиляции функции-члена "Stack<ValType>::Stack(void)" класса шаблон
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\arithmetic.h(39): см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<ValType>"
+                 with
+                 [
+                     ValType=Tokens
+                 ]
+     1>c:\documents and settings\admin\рабочий стол\_lab3_list\include\stack.h(28): error C2668: List<ValType>::List: неоднозначный вызов перегруженной функции
+                 with
+                 [
+                     ValType=double
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\list.h(33): может быть "List<ValType>::List(int)"
+                 with
+                 [
+                     ValType=double
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\list.h(27): или       "List<ValType>::List(void)"
+                 with
+                 [
+                     ValType=double
+                 ]
+                 при попытке сопоставить список аргументов "(void)"
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\stack.h(28): при компиляции функции-члена "Stack<ValType>::Stack(void)" класса шаблон
+                 with
+                 [
+                     ValType=double
+                 ]
+                 c:\documents and settings\admin\рабочий стол\_lab3_list\include\arithmetic.h(172): см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<ValType>"
+                 with
+                 [
+                     ValType=double
+                 ]
+     1>Построение проекта "C:\Documents and Settings\admin\Рабочий стол\_lab3_list\_lab3_list\_lab3_list.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:02.98
